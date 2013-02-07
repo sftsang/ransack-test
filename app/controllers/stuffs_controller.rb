@@ -2,7 +2,7 @@ class StuffsController < ApplicationController
   # GET /stuffs
   # GET /stuffs.json
   def index
-    @stuffs = Stuff.all
+    @stuffs = Stuff.search({"customer_id_cont"=>"2167"}).result
 
     respond_to do |format|
       format.html # index.html.erb
