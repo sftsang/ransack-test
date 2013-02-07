@@ -17,8 +17,8 @@ development:
   encoding: unicode
   database: ransack_test
   pool: 5
-  username: 2020_lms
-  password: s33dy
+  username: myuser
+  password: mypassword
   host: localhost
   port: 5433
 
